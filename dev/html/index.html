@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN" data-rem="320">
+
+<head>
+    <meta charset="UTF-8">
+    <title>行走的艺术，坚守与创新</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="format-detection" content="telephone=no">
+    <script>
+        ! function(a, b, c) {
+            function q() {
+                var d = Math.min((o ? e[h]().width : f.innerWidth) / (a / b), c);
+                d != p && (k.innerHTML = "html{font-size:" + d + "px!important;" + n + "}", p = d)
+            }
+
+            function r() {
+                clearTimeout(l), l = setTimeout(q, 500)
+            }
+            var l, d = document,
+                e = d.documentElement,
+                f = window,
+                g = "addEventListener",
+                h = "getBoundingClientRect",
+                i = "pageshow",
+                j = d.head || d.getElementsByTagName("HEAD")[0],
+                k = d.createElement("STYLE"),
+                m = "text-size-adjust:100%;",
+                n = "-webkit-" + m + "-moz-" + m + "-ms-" + m + "-o-" + m + m,
+                o = h in e,
+                p = null;
+            a = a || 320, b = b || 16, c = c || 32, j.appendChild(k), d[g]("DOMContentLoaded", q, !1), "on" + i in f ? f[g](i, function(a) {
+                a.persisted && r()
+            }, !1) : f[g]("load", r, !1), f[g]("resize", r, !1), q()
+        }(
+            320,
+            20,
+            32
+        );
+    </script>
+    <link rel="stylesheet" type="text/css" href="../css/style-index.css" />
+</head>
+
+<body>
+    <div id="view">
+        <div class="page-wrap">
+            <div class="page" id="page1" data-lock-next="true">
+                <div class="videoCon">
+                    <video class="video" poster="../img/p1-video-thumb.png" src="http://house.pcvideo.com.cn/pchouse/vpchouse/2016/09/20/1474344479014-vpchouse-77178-1.mp4"></video>
+                    <div class="btn-play"></div>
+                </div>
+                <div class="replay-tips"></div>
+                <div class="text1"></div>
+                <div class="text2"></div>
+                <div class="arrow"></div>
+                <div class="ad-Sign white"></div>
+            </div>
+            <div class="page" id="page2">
+
+            </div>
+        </div>
+    </div>
+    <script src="../js/zepto_modify.js"></script>
+    <script src="../js/PageSlider.js"></script>
+    <script src="../js/index.js"></script>
+    <!--<script src="http://js.3conline.com/wap/common/wxApi.min.js" charset="utf-8" class=" defer"></script>
+    <script>
+        wxApi.init(function() {
+            var shareData = {
+                title: "准备结婚？别被风格主义搞昏头",
+                desc: "如今90后已到了适婚年龄，而装饰婚房又是女朋友蜕变成女主人的重要环节之一。",
+                link: "http://www1.pchouse.com.cn/magazine/20161004/linshi/html/index.html",
+                imgUrl: "http://www1.pchouse.com.cn/magazine/20161004/linshi/img/share.jpg"
+            };
+            wx.onMenuShareAppMessage(shareData);
+            wx.onMenuShareTimeline(shareData);
+            wx.onMenuShareQQ(shareData);
+            wx.onMenuShareWeibo(shareData);
+        });
+    </script>-->
+</body>
+
+</html>
